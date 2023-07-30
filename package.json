@@ -1,0 +1,23 @@
+{
+  "name": "vite-preact-pages-template",
+  "version": "1.0.0",
+  "author": "Elizabeth Urquhart <me@ell.gay>",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev -- vite dev",
+    "build": "vite build",
+    "preview": "wrangler pages dev -- vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.16.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230724.0",
+    "@preact/preset-vite": "^2.5.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.7",
+    "wrangler": "^3.4.0"
+  }
+}

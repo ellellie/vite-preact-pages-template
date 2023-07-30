@@ -1,0 +1,45 @@
+:root {
+    color: white;
+    color-scheme: dark;
+
+    font-family: system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #131313;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+code {
+    padding: 2px 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: rgb(255, 144, 144);
+}
+
+.container {
+    width: 925px;
+}
+
+.card {
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+
+    background-color: rgba(127, 127, 127, 0.1);
+}
+
+.muted {
+    opacity: 0.25;
+}
